@@ -7,6 +7,15 @@
     android:background="@color/c00"
     tools:context=".TascActivity">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="15dp"
+        android:onClick="ava"
+        app:srcCompat="@drawable/ava" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
